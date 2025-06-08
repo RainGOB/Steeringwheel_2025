@@ -29,6 +29,7 @@
 #include "screens.h"
 #include "SLM_App.h"
 #include "app_can.h"
+#include "iwdg.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -166,28 +167,28 @@ void entry_lvgl_meter(void *argument)
           //lv_label_set_text_fmt(objects.speed,"%02d",racingCarData.Lap);
           lv_label_set_text_fmt(objects.mcu1_temp,"%02d",racingCarData.l_mcu_temp);
           lv_label_set_text_fmt(objects.mcu2_temp,"%02d",racingCarData.r_mcu_temp);
-          lv_label_set_text_fmt(objects.speed,"%motor1_temp",racingCarData.l_motor_temp);
-          lv_label_set_text_fmt(objects.speed,"%motor2_temp",racingCarData.r_motor_temp);
+          lv_label_set_text_fmt(objects.motor2_temp,"%02d",racingCarData.l_motor_temp);
+          lv_label_set_text_fmt(objects.motor1_temp,"%02d",racingCarData.r_motor_temp);
           //lv_label_set_text_fmt(objects.speed,"%02d",racingCarData.FrontSpeed);
           //lv_label_set_text_fmt(objects.speed,"%02d",racingCarData.FrontSpeed);
 
           lv_bar_set_value(objects.soc,racingCarData.BatSoc,LV_ANIM_OFF);
 
           if(racingCarData.l_motor_rpm <= 2000){
-              lv_arc_set_value(objects.l_rpm,(int32_t)(racingCarData.l_motor_rpm*1.65));
-              lv_image_set_rotation(objects.l_rpm_pt_photo,(int32_t)(racingCarData.r_motor_rpm*0.25));
+              //lv_arc_set_value(objects.l_rpm,(int32_t)(racingCarData.l_motor_rpm*1.65));
+              lv_image_set_rotation(objects.l_rpm_pt_photo,(int32_t)(racingCarData.l_motor_rpm*0.25));
           }
           else{
-              lv_arc_set_value(objects.l_rpm,(int32_t)(racingCarData.l_motor_rpm*0.8+1700));
-              lv_image_set_rotation(objects.l_rpm_pt_photo,(int32_t)(racingCarData.r_motor_rpm*0.127+246));
+              //lv_arc_set_value(objects.l_rpm,(int32_t)(racingCarData.l_motor_rpm*0.8+1700));
+              lv_image_set_rotation(objects.l_rpm_pt_photo,(int32_t)(racingCarData.l_motor_rpm*0.127+246));
           }
           if(racingCarData.r_motor_rpm <= 2000){
-              lv_arc_set_value(objects.r_rpm,(int32_t)(racingCarData.l_motor_rpm*1.65));
-              lv_image_set_rotation(objects.l_rpm_pt_photo,(int32_t)(racingCarData.r_motor_rpm*0.25));
+              //lv_arc_set_value(objects.r_rpm,(int32_t)(racingCarData.r_motor_rpm*1.65));
+              lv_image_set_rotation(objects.r_rpm_pt_photo,(int32_t)(racingCarData.r_motor_rpm*0.25));
           }
           else{
-              lv_arc_set_value(objects.r_rpm,(int32_t)(racingCarData.l_motor_rpm*0.8+1700));
-              lv_image_set_rotation(objects.l_rpm_pt_photo,(int32_t)(racingCarData.r_motor_rpm*0.127+ 246));
+              //lv_arc_set_value(objects.r_rpm,(int32_t)(racingCarData.r_motor_rpm*0.8+1700));
+              lv_image_set_rotation(objects.r_rpm_pt_photo,(int32_t)(racingCarData.r_motor_rpm*0.127+ 246));
           }
 
           if(racingCarData.gearMode == 0){
@@ -228,6 +229,7 @@ void entry_lvgl(void *argument)
       osMutexWait(lvgl_mutexHandle, osWaitForever);
       uint32_t time_till_next = lv_timer_handler();
       if(time_till_next == LV_NO_TIMER_READY) time_till_next = LV_DEF_REFR_PERIOD; /*try again soon because the other thread can make the timer ready*/
+      HAL_IWDG_Refresh(&hiwdg1);
       osMutexRelease(lvgl_mutexHandle);
       osDelay(time_till_next); /* delay to avoid unnecessary polling */
   }
@@ -253,6 +255,8 @@ void entry_ws2812b(void *argument)
       if(r_event) {
           RPM_LED_Shine();
       }
+
+      osDelay(50);
   }
   /* USER CODE END entry_ws2812b */
 }

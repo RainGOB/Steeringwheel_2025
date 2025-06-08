@@ -8,7 +8,7 @@
 
 #define ONE_PULSE        ((htim1.Init.Period+1)/3*2-1)                          
 #define ZERO_PULSE       ((htim1.Init.Period+1)/3-1)                           
-#define RESET_PULSE      (150)                             //If It`s does not work,try some word larger than 134.4.
+#define RESET_PULSE      (230)                             //If It`s does not work,try some word larger than 134.4.
 #define LED_NUMS         (10)
 #define LED_DATA_LEN     (24)                           
 #define WS2812_DATA_LEN  (LED_NUMS*LED_DATA_LEN)    
@@ -80,8 +80,14 @@ void ws2812_green(uint8_t led_nums)
 	 HAL_TIM_PWM_Start_DMA(&HTIM,CHANNEL,(uint32_t *)RGB_buffur,(num_data));
 }
 
+void ws2812_light(){
+    uint16_t num_data;
+    num_data = RESET_PULSE + 10 * 24;
+    HAL_TIM_PWM_Start_DMA(&HTIM,CHANNEL,(uint32_t *)RGB_buffur,(num_data));
+}
+
 void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim)
 {
-	__HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_1, 0);
+	//__HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_1, 0);
     HAL_TIM_PWM_Stop_DMA(&htim1,TIM_CHANNEL_1);
 }

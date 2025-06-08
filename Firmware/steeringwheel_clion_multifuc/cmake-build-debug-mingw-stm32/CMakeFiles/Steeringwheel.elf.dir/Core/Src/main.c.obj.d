@@ -49,6 +49,7 @@ CMakeFiles/Steeringwheel.elf.dir/Core/Src/main.c.obj: \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_ll_fmc.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_i2c.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_i2c_ex.h \
+ E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_iwdg.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pwr.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pwr_ex.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim.h \
@@ -71,6 +72,7 @@ CMakeFiles/Steeringwheel.elf.dir/Core/Src/main.c.obj: \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os2.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/dma.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/fdcan.h \
+ E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/iwdg.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/memorymap.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/tim.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/usart.h \

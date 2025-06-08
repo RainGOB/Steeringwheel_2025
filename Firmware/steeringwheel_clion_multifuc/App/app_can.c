@@ -97,6 +97,39 @@ void decode_power(uint32_t ID,uint8_t *candata){
     }
 }
 
+void test() {
+    if (racingCarData.carTravel != 123) {
+        racingCarData.l_motor_rpm += 100;
+        racingCarData.r_motor_rpm += 100;
+    }
+    else {
+        racingCarData.l_motor_rpm -= 100;
+        racingCarData.r_motor_rpm -= 100;
+    }
+
+    if(racingCarData.l_motor_rpm >= 8000)
+        racingCarData.carTravel = 123;
+    else if (racingCarData.l_motor_rpm <= 1000)
+        racingCarData.carTravel = 0;
+
+    if(racingCarData.l_motor_rpm <= 2000){
+        //lv_arc_set_value(objects.l_rpm,(int32_t)(racingCarData.l_motor_rpm*1.65));
+        lv_image_set_rotation(objects.l_rpm_pt_photo,(int32_t)(racingCarData.l_motor_rpm*0.25));
+    }
+    else{
+        //lv_arc_set_value(objects.l_rpm,(int32_t)(racingCarData.l_motor_rpm*0.8+1700));
+        lv_image_set_rotation(objects.l_rpm_pt_photo,(int32_t)(racingCarData.l_motor_rpm*0.127+246));
+    }
+    if(racingCarData.r_motor_rpm <= 2000){
+        //lv_arc_set_value(objects.r_rpm,(int32_t)(racingCarData.r_motor_rpm*1.65));
+        lv_image_set_rotation(objects.r_rpm_pt_photo,(int32_t)(racingCarData.r_motor_rpm*0.25));
+    }
+    else{
+        //lv_arc_set_value(objects.r_rpm,(int32_t)(racingCarData.r_motor_rpm*0.8+1700));
+        lv_image_set_rotation(objects.r_rpm_pt_photo,(int32_t)(racingCarData.r_motor_rpm*0.127+ 246));
+    }
+}
+
 /*
 void keyControlCanSend()
 {

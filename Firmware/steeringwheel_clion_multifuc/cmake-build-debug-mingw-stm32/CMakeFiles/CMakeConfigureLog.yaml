@@ -135,8 +135,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-b408mc"
-      binary: "E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-b408mc"
+      source: "E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-tgnz84"
+      binary: "E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-tgnz84"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -145,13 +145,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-b408mc'
+        Change Dir: 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-tgnz84'
         
-        Run Build Command(s): "D:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9f4fb/fast
-        D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9f4fb.dir\\build.make CMakeFiles/cmTC_9f4fb.dir/build
-        mingw32-make[1]: Entering directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-b408mc'
-        Building C object CMakeFiles/cmTC_9f4fb.dir/CMakeCCompilerABI.c.obj
-        "D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.obj -c "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "D:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a75ea/fast
+        D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a75ea.dir\\build.make CMakeFiles/cmTC_a75ea.dir/build
+        mingw32-make[1]: Entering directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-tgnz84'
+        Building C object CMakeFiles/cmTC_a75ea.dir/CMakeCCompilerABI.c.obj
+        "D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.obj -c "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -159,8 +159,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 13.3.1 20240614 (GNU Tools for STM32 13.3.rel1.20240926-1715) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_9f4fb.dir\\'
-         D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -iprefix D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/13.3.1/ -isysroot D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_9f4fb.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\30855\\AppData\\Local\\Temp\\ccUFQwRh.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_a75ea.dir\\'
+         D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -iprefix D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/13.3.1/ -isysroot D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_a75ea.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\30855\\AppData\\Local\\Temp\\ccrr3uGe.s
         GNU C17 (GNU Tools for STM32 13.3.rel1.20240926-1715) version 13.3.1 20240614 (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -177,18 +177,18 @@ events:
          D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: ff0140b734b22faecf673fec3a6a923f
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_9f4fb.dir\\'
-         D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.obj C:\\Users\\30855\\AppData\\Local\\Temp\\ccUFQwRh.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_a75ea.dir\\'
+         D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.obj C:\\Users\\30855\\AppData\\Local\\Temp\\ccrr3uGe.s
         GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 13.3.rel1.20240926-1715) 2.42.0.20240614
         COMPILER_PATH=D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/;D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/;D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/;D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/;D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.'
-        Linking C static library libcmTC_9f4fb.a
-        "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_9f4fb.dir\\cmake_clean_target.cmake
-        "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9f4fb.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_9f4fb.a CMakeFiles/cmTC_9f4fb.dir/CMakeCCompilerABI.c.obj
-        "D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe" libcmTC_9f4fb.a
-        mingw32-make[1]: Leaving directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-b408mc'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_a75ea.a
+        "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_a75ea.dir\\cmake_clean_target.cmake
+        "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a75ea.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_a75ea.a CMakeFiles/cmTC_a75ea.dir/CMakeCCompilerABI.c.obj
+        "D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe" libcmTC_a75ea.a
+        mingw32-make[1]: Leaving directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-tgnz84'
         
       exitCode: 0
   -
@@ -227,13 +227,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-b408mc']
+        ignore line: [Change Dir: 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-tgnz84']
         ignore line: []
-        ignore line: [Run Build Command(s): "D:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9f4fb/fast]
-        ignore line: [D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9f4fb.dir\\build.make CMakeFiles/cmTC_9f4fb.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-b408mc']
-        ignore line: [Building C object CMakeFiles/cmTC_9f4fb.dir/CMakeCCompilerABI.c.obj]
-        ignore line: ["D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.obj -c "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "D:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a75ea/fast]
+        ignore line: [D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a75ea.dir\\build.make CMakeFiles/cmTC_a75ea.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-tgnz84']
+        ignore line: [Building C object CMakeFiles/cmTC_a75ea.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.obj -c "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
@@ -241,8 +241,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.3.1 20240614 (GNU Tools for STM32 13.3.rel1.20240926-1715) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_9f4fb.dir\\']
-        ignore line: [ D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -iprefix D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/13.3.1/ -isysroot D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_9f4fb.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\30855\\AppData\\Local\\Temp\\ccUFQwRh.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_a75ea.dir\\']
+        ignore line: [ D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/cc1.exe -quiet -v -iprefix D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/13.3.1/ -isysroot D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_a75ea.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\30855\\AppData\\Local\\Temp\\ccrr3uGe.s]
         ignore line: [GNU C17 (GNU Tools for STM32 13.3.rel1.20240926-1715) version 13.3.1 20240614 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -259,8 +259,8 @@ events:
         ignore line: [ D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: ff0140b734b22faecf673fec3a6a923f]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_9f4fb.dir\\']
-        ignore line: [ D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.obj C:\\Users\\30855\\AppData\\Local\\Temp\\ccUFQwRh.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_a75ea.dir\\']
+        ignore line: [ D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.obj C:\\Users\\30855\\AppData\\Local\\Temp\\ccrr3uGe.s]
         ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 13.3.rel1.20240926-1715) 2.42.0.20240614]
         ignore line: [COMPILER_PATH=D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/]
         ignore line: [D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/]
@@ -269,13 +269,13 @@ events:
         ignore line: [D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/]
         ignore line: [D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_9f4fb.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C static library libcmTC_9f4fb.a]
-        ignore line: ["D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_9f4fb.dir\\cmake_clean_target.cmake]
-        ignore line: ["D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9f4fb.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_9f4fb.a CMakeFiles/cmTC_9f4fb.dir/CMakeCCompilerABI.c.obj]
-        ignore line: ["D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe" libcmTC_9f4fb.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-b408mc']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_a75ea.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_a75ea.a]
+        ignore line: ["D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_a75ea.dir\\cmake_clean_target.cmake]
+        ignore line: ["D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a75ea.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_a75ea.a CMakeFiles/cmTC_a75ea.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe" libcmTC_a75ea.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-tgnz84']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -293,8 +293,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-gqj648"
-      binary: "E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-gqj648"
+      source: "E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-kq6smi"
+      binary: "E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-kq6smi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -304,13 +304,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-gqj648'
+        Change Dir: 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-kq6smi'
         
-        Run Build Command(s): "D:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_66dbc/fast
-        D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_66dbc.dir\\build.make CMakeFiles/cmTC_66dbc.dir/build
-        mingw32-make[1]: Entering directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-gqj648'
-        Building CXX object CMakeFiles/cmTC_66dbc.dir/CMakeCXXCompilerABI.cpp.obj
-        "D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "D:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ac3d2/fast
+        D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ac3d2.dir\\build.make CMakeFiles/cmTC_ac3d2.dir/build
+        mingw32-make[1]: Entering directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-kq6smi'
+        Building CXX object CMakeFiles/cmTC_ac3d2.dir/CMakeCXXCompilerABI.cpp.obj
+        "D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
@@ -318,8 +318,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 13.3.1 20240614 (GNU Tools for STM32 13.3.rel1.20240926-1715) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_66dbc.dir\\'
-         D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/cc1plus.exe -quiet -v -iprefix D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/13.3.1/ -isysroot D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_66dbc.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\30855\\AppData\\Local\\Temp\\ccwdkfzW.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_ac3d2.dir\\'
+         D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/cc1plus.exe -quiet -v -iprefix D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/13.3.1/ -isysroot D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_ac3d2.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\30855\\AppData\\Local\\Temp\\ccY5apvK.s
         GNU C++17 (GNU Tools for STM32 13.3.rel1.20240926-1715) version 13.3.1 20240614 (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -342,18 +342,18 @@ events:
          D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 81f15da80051adef2eee7279f6f54e34
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_66dbc.dir\\'
-         D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\30855\\AppData\\Local\\Temp\\ccwdkfzW.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_ac3d2.dir\\'
+         D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\30855\\AppData\\Local\\Temp\\ccY5apvK.s
         GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 13.3.rel1.20240926-1715) 2.42.0.20240614
         COMPILER_PATH=D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/;D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/;D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/;D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/;D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/;D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_66dbc.a
-        "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_66dbc.dir\\cmake_clean_target.cmake
-        "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_66dbc.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_66dbc.a CMakeFiles/cmTC_66dbc.dir/CMakeCXXCompilerABI.cpp.obj
-        "D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe" libcmTC_66dbc.a
-        mingw32-make[1]: Leaving directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-gqj648'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_ac3d2.a
+        "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_ac3d2.dir\\cmake_clean_target.cmake
+        "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ac3d2.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_ac3d2.a CMakeFiles/cmTC_ac3d2.dir/CMakeCXXCompilerABI.cpp.obj
+        "D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe" libcmTC_ac3d2.a
+        mingw32-make[1]: Leaving directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-kq6smi'
         
       exitCode: 0
   -
@@ -404,13 +404,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-gqj648']
+        ignore line: [Change Dir: 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-kq6smi']
         ignore line: []
-        ignore line: [Run Build Command(s): "D:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_66dbc/fast]
-        ignore line: [D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_66dbc.dir\\build.make CMakeFiles/cmTC_66dbc.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-gqj648']
-        ignore line: [Building CXX object CMakeFiles/cmTC_66dbc.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: ["D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "D:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ac3d2/fast]
+        ignore line: [D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ac3d2.dir\\build.make CMakeFiles/cmTC_ac3d2.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-kq6smi']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ac3d2.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: ["D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
@@ -418,8 +418,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.3.1 20240614 (GNU Tools for STM32 13.3.rel1.20240926-1715) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_66dbc.dir\\']
-        ignore line: [ D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/cc1plus.exe -quiet -v -iprefix D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/13.3.1/ -isysroot D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_66dbc.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\30855\\AppData\\Local\\Temp\\ccwdkfzW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_ac3d2.dir\\']
+        ignore line: [ D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/cc1plus.exe -quiet -v -iprefix D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/13.3.1/ -isysroot D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_ac3d2.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\30855\\AppData\\Local\\Temp\\ccY5apvK.s]
         ignore line: [GNU C++17 (GNU Tools for STM32 13.3.rel1.20240926-1715) version 13.3.1 20240614 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -442,8 +442,8 @@ events:
         ignore line: [ D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 81f15da80051adef2eee7279f6f54e34]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_66dbc.dir\\']
-        ignore line: [ D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\30855\\AppData\\Local\\Temp\\ccwdkfzW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_ac3d2.dir\\']
+        ignore line: [ D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\30855\\AppData\\Local\\Temp\\ccY5apvK.s]
         ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 13.3.rel1.20240926-1715) 2.42.0.20240614]
         ignore line: [COMPILER_PATH=D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/]
         ignore line: [D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/]
@@ -452,13 +452,13 @@ events:
         ignore line: [D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/]
         ignore line: [D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [D:/Program Files/STMicroelectronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_66dbc.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX static library libcmTC_66dbc.a]
-        ignore line: ["D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_66dbc.dir\\cmake_clean_target.cmake]
-        ignore line: ["D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_66dbc.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_66dbc.a CMakeFiles/cmTC_66dbc.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: ["D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe" libcmTC_66dbc.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-gqj648']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_ac3d2.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_ac3d2.a]
+        ignore line: ["D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_ac3d2.dir\\cmake_clean_target.cmake]
+        ignore line: ["D:\\Program Files\\JetBrains\\CLion 2024.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ac3d2.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_ac3d2.a CMakeFiles/cmTC_ac3d2.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: ["D:\\Program Files\\STMicroelectronics\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe" libcmTC_ac3d2.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'E:/project/2025Steeringwheel/Firmware/wheel/steeringwheel_clion_multifuc/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeScratch/TryCompile-kq6smi']
         ignore line: []
         ignore line: []
         implicit libs: []

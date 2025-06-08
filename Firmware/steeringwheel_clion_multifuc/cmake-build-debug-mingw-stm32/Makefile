@@ -399,6 +399,30 @@ Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
 
+Core/Src/iwdg.obj: Core/Src/iwdg.c.obj
+.PHONY : Core/Src/iwdg.obj
+
+# target to build an object file
+Core/Src/iwdg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Core/Src/iwdg.c.obj
+.PHONY : Core/Src/iwdg.c.obj
+
+Core/Src/iwdg.i: Core/Src/iwdg.c.i
+.PHONY : Core/Src/iwdg.i
+
+# target to preprocess a source file
+Core/Src/iwdg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Core/Src/iwdg.c.i
+.PHONY : Core/Src/iwdg.c.i
+
+Core/Src/iwdg.s: Core/Src/iwdg.c.s
+.PHONY : Core/Src/iwdg.s
+
+# target to generate assembly for a file
+Core/Src/iwdg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Core/Src/iwdg.c.s
+.PHONY : Core/Src/iwdg.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -934,6 +958,30 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.s: Drivers/STM32H7xx_HAL_D
 Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c.s
 
 Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.obj
@@ -10522,6 +10570,9 @@ help:
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
+	@echo ... Core/Src/iwdg.obj
+	@echo ... Core/Src/iwdg.i
+	@echo ... Core/Src/iwdg.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
@@ -10589,6 +10640,9 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.s
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.s
