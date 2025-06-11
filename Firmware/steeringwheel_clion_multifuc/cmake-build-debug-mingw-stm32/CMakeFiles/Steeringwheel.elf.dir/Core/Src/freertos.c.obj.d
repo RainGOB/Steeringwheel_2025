@@ -67,6 +67,7 @@ CMakeFiles/Steeringwheel.elf.dir/Core/Src/freertos.c.obj: \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/Variable.h \
+ D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/include/stdbool.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/main.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os2.h \
@@ -78,7 +79,6 @@ CMakeFiles/Steeringwheel.elf.dir/Core/Src/freertos.c.obj: \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\lvgl/lv_conf.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\lvgl/src/misc/lv_types.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\lvgl/src/misc/../lv_conf_internal.h \
- D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/include/stdbool.h \
  D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/inttypes.h \
  D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_locale.h \
  D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/include/limits.h \
@@ -496,4 +496,8 @@ CMakeFiles/Steeringwheel.elf.dir/Core/Src/freertos.c.obj: \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\App/app_can.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Bsp/bsp_can.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/fdcan.h \
- E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/iwdg.h
+ E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\App/app_indev.h \
+ E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/iwdg.h \
+ D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/string.h \
+ D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/strings.h \
+ D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/string.h

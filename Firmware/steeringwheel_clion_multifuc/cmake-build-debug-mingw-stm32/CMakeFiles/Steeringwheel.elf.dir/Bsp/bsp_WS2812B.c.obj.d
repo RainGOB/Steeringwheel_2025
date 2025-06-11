@@ -58,4 +58,5 @@ CMakeFiles/Steeringwheel.elf.dir/Bsp/bsp_WS2812B.c.obj: \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim_ex.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
- E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/Variable.h
+ E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/Variable.h \
+ D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/include/stdbool.h

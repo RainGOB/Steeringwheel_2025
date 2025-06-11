@@ -8,6 +8,6 @@
 
 void decode(uint32_t ID,uint8_t *mdata);
 void decode_power(uint32_t ID,uint8_t *candata);
-void test();
+//void test();
 
 #endif

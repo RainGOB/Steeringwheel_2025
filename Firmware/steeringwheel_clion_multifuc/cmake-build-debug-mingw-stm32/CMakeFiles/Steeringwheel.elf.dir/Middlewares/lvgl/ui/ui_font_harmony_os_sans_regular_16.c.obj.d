@@ -1,5 +1,5 @@
-CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_rpm_back.c.obj: \
- E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\lvgl\ui\ui_image_rpm_back.c \
+CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.obj: \
+ E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\lvgl\ui\ui_font_harmony_os_sans_regular_16.c \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\lvgl/lvgl.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\lvgl/lv_version.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Middlewares\lvgl/src/lv_init.h \

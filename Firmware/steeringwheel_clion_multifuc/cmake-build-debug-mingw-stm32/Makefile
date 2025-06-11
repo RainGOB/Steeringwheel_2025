@@ -183,6 +183,30 @@ App/app_can.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/App/app_can.c.s
 .PHONY : App/app_can.c.s
 
+App/app_indev.obj: App/app_indev.c.obj
+.PHONY : App/app_indev.obj
+
+# target to build an object file
+App/app_indev.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/App/app_indev.c.obj
+.PHONY : App/app_indev.c.obj
+
+App/app_indev.i: App/app_indev.c.i
+.PHONY : App/app_indev.i
+
+# target to preprocess a source file
+App/app_indev.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/App/app_indev.c.i
+.PHONY : App/app_indev.c.i
+
+App/app_indev.s: App/app_indev.c.s
+.PHONY : App/app_indev.s
+
+# target to generate assembly for a file
+App/app_indev.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/App/app_indev.c.s
+.PHONY : App/app_indev.c.s
+
 Bsp/bsp_LCD.obj: Bsp/bsp_LCD.c.obj
 .PHONY : Bsp/bsp_LCD.obj
 
@@ -10431,6 +10455,126 @@ Middlewares/lvgl/ui/ui.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui.c.s
 .PHONY : Middlewares/lvgl/ui/ui.c.s
 
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.obj: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.obj
+
+# target to build an object file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.obj
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.i: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.i
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.i
+
+# target to preprocess a source file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.i
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.i
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.s: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.s
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.s
+
+# target to generate assembly for a file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.s
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.c.s
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.obj: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.obj
+
+# target to build an object file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.obj
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.i: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.i
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.i
+
+# target to preprocess a source file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.i
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.i
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.s: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.s
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.s
+
+# target to generate assembly for a file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.s
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.c.s
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.obj: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.obj
+
+# target to build an object file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.obj
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.i: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.i
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.i
+
+# target to preprocess a source file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.i
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.i
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.s: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.s
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.s
+
+# target to generate assembly for a file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.s
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.c.s
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.obj: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.obj
+
+# target to build an object file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.obj
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.i: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.i
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.i
+
+# target to preprocess a source file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.i
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.i
+
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.s: Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.s
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.s
+
+# target to generate assembly for a file
+Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.s
+.PHONY : Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.c.s
+
+Middlewares/lvgl/ui/ui_image_background.obj: Middlewares/lvgl/ui/ui_image_background.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_image_background.obj
+
+# target to build an object file
+Middlewares/lvgl/ui/ui_image_background.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_background.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_image_background.c.obj
+
+Middlewares/lvgl/ui/ui_image_background.i: Middlewares/lvgl/ui/ui_image_background.c.i
+.PHONY : Middlewares/lvgl/ui/ui_image_background.i
+
+# target to preprocess a source file
+Middlewares/lvgl/ui/ui_image_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_background.c.i
+.PHONY : Middlewares/lvgl/ui/ui_image_background.c.i
+
+Middlewares/lvgl/ui/ui_image_background.s: Middlewares/lvgl/ui/ui_image_background.c.s
+.PHONY : Middlewares/lvgl/ui/ui_image_background.s
+
+# target to generate assembly for a file
+Middlewares/lvgl/ui/ui_image_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_background.c.s
+.PHONY : Middlewares/lvgl/ui/ui_image_background.c.s
+
 Middlewares/lvgl/ui/ui_image_ly_icon.obj: Middlewares/lvgl/ui/ui_image_ly_icon.c.obj
 .PHONY : Middlewares/lvgl/ui/ui_image_ly_icon.obj
 
@@ -10454,54 +10598,6 @@ Middlewares/lvgl/ui/ui_image_ly_icon.s: Middlewares/lvgl/ui/ui_image_ly_icon.c.s
 Middlewares/lvgl/ui/ui_image_ly_icon.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_ly_icon.c.s
 .PHONY : Middlewares/lvgl/ui/ui_image_ly_icon.c.s
-
-Middlewares/lvgl/ui/ui_image_rpm_back.obj: Middlewares/lvgl/ui/ui_image_rpm_back.c.obj
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_back.obj
-
-# target to build an object file
-Middlewares/lvgl/ui/ui_image_rpm_back.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_rpm_back.c.obj
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_back.c.obj
-
-Middlewares/lvgl/ui/ui_image_rpm_back.i: Middlewares/lvgl/ui/ui_image_rpm_back.c.i
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_back.i
-
-# target to preprocess a source file
-Middlewares/lvgl/ui/ui_image_rpm_back.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_rpm_back.c.i
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_back.c.i
-
-Middlewares/lvgl/ui/ui_image_rpm_back.s: Middlewares/lvgl/ui/ui_image_rpm_back.c.s
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_back.s
-
-# target to generate assembly for a file
-Middlewares/lvgl/ui/ui_image_rpm_back.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_rpm_back.c.s
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_back.c.s
-
-Middlewares/lvgl/ui/ui_image_rpm_pt.obj: Middlewares/lvgl/ui/ui_image_rpm_pt.c.obj
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_pt.obj
-
-# target to build an object file
-Middlewares/lvgl/ui/ui_image_rpm_pt.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_rpm_pt.c.obj
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_pt.c.obj
-
-Middlewares/lvgl/ui/ui_image_rpm_pt.i: Middlewares/lvgl/ui/ui_image_rpm_pt.c.i
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_pt.i
-
-# target to preprocess a source file
-Middlewares/lvgl/ui/ui_image_rpm_pt.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_rpm_pt.c.i
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_pt.c.i
-
-Middlewares/lvgl/ui/ui_image_rpm_pt.s: Middlewares/lvgl/ui/ui_image_rpm_pt.c.s
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_pt.s
-
-# target to generate assembly for a file
-Middlewares/lvgl/ui/ui_image_rpm_pt.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_rpm_pt.c.s
-.PHONY : Middlewares/lvgl/ui/ui_image_rpm_pt.c.s
 
 Middlewares/lvgl/ui/ui_image_soc_bc.obj: Middlewares/lvgl/ui/ui_image_soc_bc.c.obj
 .PHONY : Middlewares/lvgl/ui/ui_image_soc_bc.obj
@@ -10527,6 +10623,54 @@ Middlewares/lvgl/ui/ui_image_soc_bc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_soc_bc.c.s
 .PHONY : Middlewares/lvgl/ui/ui_image_soc_bc.c.s
 
+Middlewares/lvgl/ui/ui_image_wifi_off.obj: Middlewares/lvgl/ui/ui_image_wifi_off.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_off.obj
+
+# target to build an object file
+Middlewares/lvgl/ui/ui_image_wifi_off.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_wifi_off.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_off.c.obj
+
+Middlewares/lvgl/ui/ui_image_wifi_off.i: Middlewares/lvgl/ui/ui_image_wifi_off.c.i
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_off.i
+
+# target to preprocess a source file
+Middlewares/lvgl/ui/ui_image_wifi_off.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_wifi_off.c.i
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_off.c.i
+
+Middlewares/lvgl/ui/ui_image_wifi_off.s: Middlewares/lvgl/ui/ui_image_wifi_off.c.s
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_off.s
+
+# target to generate assembly for a file
+Middlewares/lvgl/ui/ui_image_wifi_off.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_wifi_off.c.s
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_off.c.s
+
+Middlewares/lvgl/ui/ui_image_wifi_on.obj: Middlewares/lvgl/ui/ui_image_wifi_on.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_on.obj
+
+# target to build an object file
+Middlewares/lvgl/ui/ui_image_wifi_on.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_wifi_on.c.obj
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_on.c.obj
+
+Middlewares/lvgl/ui/ui_image_wifi_on.i: Middlewares/lvgl/ui/ui_image_wifi_on.c.i
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_on.i
+
+# target to preprocess a source file
+Middlewares/lvgl/ui/ui_image_wifi_on.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_wifi_on.c.i
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_on.c.i
+
+Middlewares/lvgl/ui/ui_image_wifi_on.s: Middlewares/lvgl/ui/ui_image_wifi_on.c.s
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_on.s
+
+# target to generate assembly for a file
+Middlewares/lvgl/ui/ui_image_wifi_on.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Steeringwheel.elf.dir\build.make CMakeFiles/Steeringwheel.elf.dir/Middlewares/lvgl/ui/ui_image_wifi_on.c.s
+.PHONY : Middlewares/lvgl/ui/ui_image_wifi_on.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -10543,6 +10687,9 @@ help:
 	@echo ... App/app_can.obj
 	@echo ... App/app_can.i
 	@echo ... App/app_can.s
+	@echo ... App/app_indev.obj
+	@echo ... App/app_indev.i
+	@echo ... App/app_indev.s
 	@echo ... Bsp/bsp_LCD.obj
 	@echo ... Bsp/bsp_LCD.i
 	@echo ... Bsp/bsp_LCD.s
@@ -11824,18 +11971,33 @@ help:
 	@echo ... Middlewares/lvgl/ui/ui.obj
 	@echo ... Middlewares/lvgl/ui/ui.i
 	@echo ... Middlewares/lvgl/ui/ui.s
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.obj
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.i
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_14.s
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.obj
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.i
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_16.s
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.obj
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.i
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_36.s
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.obj
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.i
+	@echo ... Middlewares/lvgl/ui/ui_font_harmony_os_sans_regular_48.s
+	@echo ... Middlewares/lvgl/ui/ui_image_background.obj
+	@echo ... Middlewares/lvgl/ui/ui_image_background.i
+	@echo ... Middlewares/lvgl/ui/ui_image_background.s
 	@echo ... Middlewares/lvgl/ui/ui_image_ly_icon.obj
 	@echo ... Middlewares/lvgl/ui/ui_image_ly_icon.i
 	@echo ... Middlewares/lvgl/ui/ui_image_ly_icon.s
-	@echo ... Middlewares/lvgl/ui/ui_image_rpm_back.obj
-	@echo ... Middlewares/lvgl/ui/ui_image_rpm_back.i
-	@echo ... Middlewares/lvgl/ui/ui_image_rpm_back.s
-	@echo ... Middlewares/lvgl/ui/ui_image_rpm_pt.obj
-	@echo ... Middlewares/lvgl/ui/ui_image_rpm_pt.i
-	@echo ... Middlewares/lvgl/ui/ui_image_rpm_pt.s
 	@echo ... Middlewares/lvgl/ui/ui_image_soc_bc.obj
 	@echo ... Middlewares/lvgl/ui/ui_image_soc_bc.i
 	@echo ... Middlewares/lvgl/ui/ui_image_soc_bc.s
+	@echo ... Middlewares/lvgl/ui/ui_image_wifi_off.obj
+	@echo ... Middlewares/lvgl/ui/ui_image_wifi_off.i
+	@echo ... Middlewares/lvgl/ui/ui_image_wifi_off.s
+	@echo ... Middlewares/lvgl/ui/ui_image_wifi_on.obj
+	@echo ... Middlewares/lvgl/ui/ui_image_wifi_on.i
+	@echo ... Middlewares/lvgl/ui/ui_image_wifi_on.s
 .PHONY : help
 
 

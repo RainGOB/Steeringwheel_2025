@@ -29,7 +29,9 @@
 #include "screens.h"
 #include "SLM_App.h"
 #include "app_can.h"
+#include "app_indev.h"
 #include "iwdg.h"
+#include "string.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -156,40 +158,97 @@ void MX_FREERTOS_Init(void) {
 void entry_lvgl_meter(void *argument)
 {
   /* USER CODE BEGIN entry_lvgl_meter */
-  uint32_t r_event;
+//  uint32_t r_event;
+  static uint8_t saf_cir_ofl_blink = 0;
+  racingCarData.BatVoltage = 480.4;
   /* Infinite loop */
   for(;;)
   {
-      r_event = osEventFlagsWait(Upld_data_eventHandle,GUI_UPDATE_EVENT,osFlagsWaitAll,osWaitForever);
-      osMutexWait(lvgl_mutexHandle, osWaitForever);
-      if(r_event) {
+//      r_event = osEventFlagsWait(Upld_data_eventHandle,GUI_UPDATE_EVENT,osFlagsWaitAll,osWaitForever);
+//      if(r_event) {
+          Key_Num_Click = key_scan_click();
+          Key_Num_Press = key_scan_press();
+
+          //安全回路检测
+          if(racingCarData.safety_circuit_offline == 0) {
+              if (saf_cir_ofl_blink<=10) {
+                  lv_obj_clear_flag(objects.saf_cir_ofl_label, LV_OBJ_FLAG_HIDDEN);
+                  saf_cir_ofl_blink++;
+              }
+              else if(saf_cir_ofl_blink<=15 && saf_cir_ofl_blink >10) {
+                  lv_obj_add_flag(objects.saf_cir_ofl_label, LV_OBJ_FLAG_HIDDEN);
+                  saf_cir_ofl_blink++;
+              }
+              else
+                  saf_cir_ofl_blink = 0;
+          }
+          else
+              lv_obj_add_flag(objects.saf_cir_ofl_label,LV_OBJ_FLAG_HIDDEN);
+
+          //重要消息显示
+          lv_obj_add_flag(objects.history_log_fail,LV_OBJ_FLAG_HIDDEN);
+          if(racingCarData.l_mcu_ready == 0 || Key_Num_Press == 4) {
+              history_log_appear_flag = 1;
+              lv_label_set_text_fmt(objects.history_log_lready,"%1d",racingCarData.l_mcu_ready);
+              lv_label_set_text_fmt(objects.history_log_lprecharge,"%1d", racingCarData.l_mcu_precharge_state);
+              lv_label_set_text_fmt(objects.history_log_lwrong_code,"%3d",racingCarData.l_mcu_wrong_code);
+          }
+          if(racingCarData.r_mcu_ready == 0 || Key_Num_Press == 4) {
+              history_log_appear_flag = 1;
+              lv_label_set_text_fmt(objects.history_log_rready,"%1d",racingCarData.r_mcu_ready);
+              lv_label_set_text_fmt(objects.history_log_rprecharge,"%1d", racingCarData.r_mcu_precharge_state);
+              lv_label_set_text_fmt(objects.history_log_rwrong_code,"%3d",racingCarData.r_mcu_wrong_code);
+          }
+          if(racingCarData.l_mcu_selftest_state == 0 || Key_Num_Press == 4) {
+              history_log_appear_flag = 1;
+              lv_label_set_text_fmt(objects.history_log_rselftest,"%1d",racingCarData.r_mcu_selftest_state);
+
+          }
+          if(racingCarData.l_mcu_alert != 0 || Key_Num_Press == 4) {
+              history_log_appear_flag = 1;
+              lv_label_set_text_fmt(objects.history_log_ralert,"%1d",racingCarData.r_mcu_alert);
+          }
+          if(racingCarData.r_mcu_selftest_state == 0 || Key_Num_Press == 4) {
+              history_log_appear_flag = 1;
+              lv_label_set_text_fmt(objects.history_log_rselftest,"%1d",racingCarData.r_mcu_selftest_state);
+          }
+          if(racingCarData.r_mcu_alert != 0 || Key_Num_Press == 4) {
+              history_log_appear_flag = 1;
+              lv_label_set_text_fmt(objects.history_log_ralert,"%1d",racingCarData.r_mcu_alert);
+          }
+
+          lv_label_set_text_fmt(objects.history_log_batstate,"%1d",racingCarData.BatState);
+
+          if(racingCarData.BatAlmLv != 0 || Key_Num_Press == 4) {
+              history_log_appear_flag = 1;
+              lv_label_set_text_fmt(objects.history_log_batalmlv,"%1d",racingCarData.BatAlmLv);
+          }
+
+          if(racingCarData.l_mcu_ready == 1 && racingCarData.r_mcu_ready == 1 && racingCarData.l_mcu_selftest_state == 1 && racingCarData.r_mcu_selftest_state == 1 && racingCarData.l_mcu_alert == 0 && racingCarData.r_mcu_alert == 0 && racingCarData.BatAlmLv == 0) {
+              history_log_appear_flag = 0;
+          }
+
+          lv_label_set_text_fmt(objects.history_log_rpm_difference,"%4d",racingCarData.l_motor_rpm-racingCarData.r_motor_rpm);
+
+          if(history_log_appear_flag == 1) lv_obj_clear_flag(objects.history_log_panel,LV_OBJ_FLAG_HIDDEN);
+          else lv_obj_add_flag(objects.history_log_panel,LV_OBJ_FLAG_HIDDEN);
+
+          if(Key_Num_Press == 4) lv_obj_clear_flag(objects.history_log_panel,LV_OBJ_FLAG_HIDDEN);
+          else lv_obj_add_flag(objects.history_log_panel,LV_OBJ_FLAG_HIDDEN);
+
+
           lv_label_set_text_fmt(objects.speed,"%02d",racingCarData.FrontSpeed);
-          //lv_label_set_text_fmt(objects.speed,"%02d",racingCarData.Lap);
+          lv_label_set_text_fmt(objects.lmot_rpm,"%02d",racingCarData.l_motor_rpm);
+          lv_label_set_text_fmt(objects.rmot_rpm,"%02d",racingCarData.r_motor_rpm);
           lv_label_set_text_fmt(objects.mcu1_temp,"%02d",racingCarData.l_mcu_temp);
           lv_label_set_text_fmt(objects.mcu2_temp,"%02d",racingCarData.r_mcu_temp);
           lv_label_set_text_fmt(objects.motor2_temp,"%02d",racingCarData.l_motor_temp);
           lv_label_set_text_fmt(objects.motor1_temp,"%02d",racingCarData.r_motor_temp);
-          //lv_label_set_text_fmt(objects.speed,"%02d",racingCarData.FrontSpeed);
-          //lv_label_set_text_fmt(objects.speed,"%02d",racingCarData.FrontSpeed);
+          lv_label_set_text_fmt(objects.mincellvolt,"%04d",racingCarData.MinCellVolt);
+
+          lv_label_set_text_fmt(objects.bat_volt,"%03d",racingCarData.BatVoltage);
 
           lv_bar_set_value(objects.soc,racingCarData.BatSoc,LV_ANIM_OFF);
-
-          if(racingCarData.l_motor_rpm <= 2000){
-              //lv_arc_set_value(objects.l_rpm,(int32_t)(racingCarData.l_motor_rpm*1.65));
-              lv_image_set_rotation(objects.l_rpm_pt_photo,(int32_t)(racingCarData.l_motor_rpm*0.25));
-          }
-          else{
-              //lv_arc_set_value(objects.l_rpm,(int32_t)(racingCarData.l_motor_rpm*0.8+1700));
-              lv_image_set_rotation(objects.l_rpm_pt_photo,(int32_t)(racingCarData.l_motor_rpm*0.127+246));
-          }
-          if(racingCarData.r_motor_rpm <= 2000){
-              //lv_arc_set_value(objects.r_rpm,(int32_t)(racingCarData.r_motor_rpm*1.65));
-              lv_image_set_rotation(objects.r_rpm_pt_photo,(int32_t)(racingCarData.r_motor_rpm*0.25));
-          }
-          else{
-              //lv_arc_set_value(objects.r_rpm,(int32_t)(racingCarData.r_motor_rpm*0.8+1700));
-              lv_image_set_rotation(objects.r_rpm_pt_photo,(int32_t)(racingCarData.r_motor_rpm*0.127+ 246));
-          }
 
           if(racingCarData.gearMode == 0){
               lv_label_set_text(objects.gear, "N");
@@ -206,8 +265,8 @@ void entry_lvgl_meter(void *argument)
           else if(racingCarData.gearMode == 4){
               lv_label_set_text(objects.gear,"EF");
           }
-      }
-      osMutexRelease(lvgl_mutexHandle);
+//      }
+//      osMutexRelease(lvgl_mutexHandle);
       osDelay(50);
   }
   /* USER CODE END entry_lvgl_meter */

@@ -10,6 +10,7 @@ CMakeFiles/Steeringwheel.elf.dir/App/SLM_App.c.obj: \
  D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_intsup.h \
  D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_stdint.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/Variable.h \
+ D:\Program\ Files\STMicroelectronics\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/13.3.1/include/stdbool.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/main.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal.h \
  E:\project\2025Steeringwheel\Firmware\wheel\steeringwheel_clion_multifuc\Core\Inc/stm32h7xx_hal_conf.h \
